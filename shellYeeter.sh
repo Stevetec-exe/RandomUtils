@@ -1,6 +1,6 @@
 #!/bin/sh
 # shellyeeter.sh is a tool to flood all open /bin/bash shells on a maschine besides your own
-# you can use this in a KOTH "King of the hill" game to nicely ask players to recreate their shells
+# you can use this in a KOTH "King of the hill" game to 'nicely' ask/convince players to reconnect their shells
 # it does that by redirecting /dev/urandom into the stdin of all running bash shells except
 # the shell of the caller and the executing shell itself.
 # To avoid getting input errors when shells exit, start the file like this: ./[FILENAME].sh 2> /dev/null
